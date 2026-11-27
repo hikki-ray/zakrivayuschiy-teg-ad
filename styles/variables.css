@@ -1,1 +1,27 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-family-primary: "inter-Variable", sans-serif;
+  --font-family-secondary: "PresStart2P", sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --color-surface: #ffffff;
+  --color-foreground: #000000;
+  --background-pattern:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --heart-contour: black;
+  --heart-fill-body: #ff0000;
+  --heart-fill-sparks: #ff0000;
+}
